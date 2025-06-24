@@ -37,6 +37,8 @@ if 'items' in data:
     print("Authors:", ", ".join(book.get('authors', ['N/A'])))
     print("Publisher:", book.get('publisher', 'N/A'))
     print("Published Date:", book.get('publishedDate', 'N/A'))
+    print("Here you have a description:", book.get('description', 'N/A'))
+    
 else:
     print("No book found for this ISBN.")
     
